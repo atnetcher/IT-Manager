@@ -39,7 +39,7 @@
     const PROFILE = {
       fullName: "Andrue Netcher",
       headline: "IT Engineering Manager • Program/Project Leadership",
-      company: "Open to IT Manager roles",
+      company: "Open to IT Project Manager roles",
       avatarUrl: "./andrue-placeholder.jpg",
       location: "Daytona Beach, FL",
       url: (typeof window !== "undefined" ? window.location.href : "https://example.com/andrue"),
@@ -48,7 +48,7 @@
       website: "https://vercel.com/andrue-netchers-projects/digital-card",
       socials: [
         { label: "LinkedIn", href: "https://www.linkedin.com/in/andrue-netcher" },
-        { label: "Resume (IT Manager)", href: "https://1drv.ms/b/c/23336c60c1b7a467/EbEmkjp5k21Jiy7VZ1VPt1MBD4uxGKsv8pvuZASHA4_JMg?e=gE9WpJ" }
+        { label: "Resume (IT Manager)", href: "https://1drv.ms/b/c/23336c60c1b7a467/EYHfHz29ctBOvMfAdb833K0BH1O73Ibq0zz40KvbqOUTUw?e=GJ6RHc" }
       ],
       highlights: [
         "PMP & ITIL Certified",
@@ -56,7 +56,7 @@
         "Global team leadership",
         "Security & compliance (SOC2/NIST)"
       ],
-      about: "With 12+ years in enterprise IT leadership, I specialize in infrastructure, service delivery, and technology transformation for mission-critical environments. I’ve scaled hybrid cloud platforms, built resilient systems, and led global teams to deliver 99.9% uptime with strong ITIL-based practices. My background spans security and compliance (Security+, ISC2 CC, CMMC-RP), project and financial management (PMP-certified), and stakeholder engagement at the executive level. I bring a balance of technical expertise, financial stewardship, and leadership to organizations navigating transformation and growth."
+      about: "As a PMP- and ITIL-certified IT Project Manager, I bring 12+ years of expertise delivering enterprise IT projects across infrastructure, ERP/CRM, and cloud environments. I’ve successfully managed multimillion-dollar budgets, vendor negotiations, and executive reporting while applying Agile, Waterfall, and hybrid methodologies. My leadership has reduced downtime by 25%, improved forecasting by 20%, and driven cost savings through strategic vendor management. I focus on aligning IT programs with business objectives, mitigating risks, and enabling measurable performance improvements."
     };
 
     function IconCopy(props){return e('svg', {className:(props.className||'')+' w-4 h-4', viewBox:'0 0 24 24', fill:'none', stroke:'currentColor', strokeWidth:'2', strokeLinecap:'round', strokeLinejoin:'round'}, e('rect',{x:'9',y:'9',width:'13',height:'13',rx:'2',ry:'2'}), e('path',{d:'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'}));}
@@ -137,7 +137,7 @@
             e('section', {id:'qr', className:'mt-10'},
               e('h2', {className:'text-lg font-semibold'}, 'Share via QR'),
               e('p', {className:'mt-2 text-sm text-zinc-600'}, 'Scan to open this profile on your device.'),
-              e('div', {className:'mt-4 flex items-center gap-6'},
+              e('div', {className:'mt-4 flex flex-col items-center gap-4'},
                 e('div', {id:'qr-img', className:'h-40 w-40 rounded-lg border bg-white p-2 shadow flex items-center justify-center'}),
                 e('div', {className:'space-y-2 text-sm'},
                   e('div', {className:'flex items-center gap-2'},
